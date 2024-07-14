@@ -5,11 +5,19 @@ export class DatabaseMemory {
   //id - Keys # videos -values()
 
   list() {
-    return Array.from(this.#videos.values());
+    return Array.from(this.#videos.entries()).map((videoArray) => {
+      const id = videoArray[0];
+      const data = videoArray[1];
+
+      return {
+        id,
+        ...data,
+      };
+    });
   }
 
   create(video) {
-    const videoId = randomUUID;
+    const videoId = randomUUID();
     // UUID -> ID único universal
 
     this.#videos.set(videoId, video);
