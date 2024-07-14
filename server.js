@@ -60,8 +60,10 @@ server.post("/videos", (request, reply) => {
   return reply.status(201).send();
   //status http 201 -> algo foi criado
 });
-server.get("/videos", () => {
-  return "hello Devs";
+server.get("/videos", (request, reply) => {
+  const videos = database.list();
+
+  return videos;
 });
 server.put("/videos/:id", () => {
   return "hello Skull";
