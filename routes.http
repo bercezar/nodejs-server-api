@@ -1,1 +1,9 @@
 POST http://localhost:3333/videos
+Content-Type: application/json
+//Requisição - meta dados
+
+{
+    "title": "Vídeo 01",
+    "description": "Primeiro vídeo",
+    "duration": 180
+}

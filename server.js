@@ -49,10 +49,10 @@ const database = new DatabaseMemory();
 // !ATENÇÃO: O navegador sempre utiliza o método GET para fazer a requisição, ou seja, ele não utiliza o POST, PUT...  Apenas rotasdotipo get.
 
 server.post("/videos", (request, reply) => {
-  const { tittle, description, duration } = request.body;
+  const { title, description, duration } = request.body;
 
   database.create({
-    tittle,
+    title,
     description,
     duration,
   });
