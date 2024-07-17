@@ -1,7 +1,7 @@
 import {} from "./db.js";
 
 sql`CREATE TABLE videos(
-    videoId
+    id TEX PRIMARY KEY,
     title TEXT,
     description TEXT,
     duration integer
