@@ -4,7 +4,7 @@ Content-Type: application/json
 //Enviando...
 
 {
-    "title": "Vídeo 01",
+    "title": "Vídeo 1",
     "description": "Primeiro vídeo",
     "duration": 180
 }
