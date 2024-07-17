@@ -9,7 +9,7 @@ Banco de Dados em Memória: Utilizado para fins de testes no próprio desktop, p
 Banco de Dados Postgres: Utilizado para o ambiente de produção, garantindo robustez e eficiência no gerenciamento dos dados.
 Tecnologias Utilizadas<br>
 
-Tecnologias:<br> <img align="center" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" /><br> <img align="center" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastify/fastify-original.svg" /><br> <img align="center" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" /><br>
+Tecnologias:<br> <img align="center" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" /> <img align="center" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastify/fastify-original.svg" /><img align="center" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" /><br>
 
 Configuração do Banco de Dados:<br>
 Para conectar ao banco de dados PostgreSQL hospedado no Neon Tech, utilizamos uma configuração que garante uma conexão segura e eficiente, adequada tanto para o desenvolvimento quanto para o ambiente de produção. A escolha pelo Neon Tech foi baseada na necessidade de um ambiente escalável e seguro que pudesse suportar as demandas do projeto.<br>
