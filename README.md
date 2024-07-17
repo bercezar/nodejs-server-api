@@ -1,6 +1,7 @@
 # API REST com Node.js, Fastify e Postgres
 
-> [!NOTE] O principal objetivo deste projeto foi a criação de uma API REST utilizando Node.js, Fastify e Postgres. A API foi desenvolvida para demonstrar a capacidade de criar e gerenciar bancos de dados tanto em memória quanto no Postgres, implementando funcionalidades completas de CRUD (Create, Read, Update, Delete).<br>
+> [!NOTE]
+> O principal objetivo deste projeto foi a criação de uma API REST utilizando Node.js, Fastify e Postgres. A API foi desenvolvida para demonstrar a capacidade de criar e gerenciar bancos de dados tanto em memória quanto no Postgres, implementando funcionalidades completas de CRUD (Create, Read, Update, Delete).<br>
 
 O projeto envolve dois principais componentes de banco de dados:<br>
 
