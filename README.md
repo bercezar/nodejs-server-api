@@ -5,7 +5,7 @@
 
 O projeto envolve dois principais componentes de banco de dados:<br>
 
-Banco de Dados em Memória: Utilizado para fins de testes no próprio desktop, permitindo desenvolvimento rápido e validação de funcionalidades sem a necessidade de um banco de dados completo.
+Banco de Dados em Memória: Utilizado para fins de testes no próprio desktop, permitindo desenvolvimento rápido e validação de funcionalidades sem a necessidade de um banco de dados completo.<br>
 Banco de Dados Postgres: Utilizado para o ambiente de produção, garantindo robustez e eficiência no gerenciamento dos dados.
 Tecnologias Utilizadas<br>
 
