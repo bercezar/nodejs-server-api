@@ -1,5 +1,5 @@
 import { randomUUID } from "node:crypto";
-import { sql } from "./db/js";
+import { sql } from "./db.js";
 
 export class DatabasePostgres {
   async list(search) {
@@ -26,5 +26,7 @@ export class DatabasePostgres {
     await sql`update video set title=${title}, description=${description}, duration=${duration} where id=${id}`;
   }
 
-  async delete(id) {}
+  async delete(id) {
+    await sql`delete from video where id = ${id}`;
+  }
 }
